@@ -5,16 +5,52 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>about Erkan Gazi</title>
 </head>
+<link href="https://fonts.googleapis.com/css?family=Lobster" rel="stylesheet" type="text/css">
 <style>
-    <link href="https://fonts.googleapis.com/css?family=Lobster" rel="stylesheet" type="text/css">
     h1 {
         font-family: Lobster;
     }
+
+    .smaller-image {
+        width: 200px;
+    }
+
+    .thick-red-border {
+        border-color: red;
+        border-width:10px;
+        border-style: solid;
+        border-radius: 39.5%;
+    }
+
+    .thick-green-border {
+        border-color: greenyellow;
+        border-width:10px;
+        border-style: solid;
+        border-radius: 39.5%;
+    }
+
+    .black-background {
+        background-color: black;
+    }
+
+    .nav-links {
+        display: flex;
+        justify-content: space-evenly;
+    }
+
+    .social-media {
+        display: flex;
+        flex-direction: row-reverse;
+        justify-content: space-evenly;
+    }
+
+    
 </style>
 <body>
-    <nav>
+    <nav class="black-background">
         <div class="inside">
             <ul>
+                <div class="nav-links">
                 <li>
                     <a href="#">About</a>
                 </li>
@@ -24,6 +60,8 @@
                 <li>
                     <a href="#">Contact</a>
                 </li>
+                </div>
+                <div class="social-media">
                 <li>
                     <a href="https://github.com/ErkanGazi20" target="_blank">Github</a>
                 </li>
@@ -39,10 +77,11 @@
                 <li>
                     <a href="https://twitter.com/Enkazlar" target="_blank">Twitter</a>
                 </li>
+            </div>
             </ul>
     </nav>
     <h1>about.</h1>
-            <img src="ErkanGazi1_Cropped.jpeg" alt="picture of me">
+            <img class="smaller-image thick-red-border" src="ErkanGazi1_Cropped.jpeg" alt="picture of me">
         </div><!-- end inside -->
         <div id="page-wrap">
             <div class="inside">
@@ -94,7 +133,7 @@
                                 Rick Sanchez is my mentor
                             </li>
                         </ul>
-                        <img src="picture_of_Rick_Sanchez.jpg" alt="picture of my mentor Rick Sanchez">
+                        <img class="smaller-image thick-green-border" src="picture_of_Rick_Sanchez.jpg" alt="picture of my mentor Rick Sanchez">
                 </section><!-- end of personal-indulgences-->
                 <section class="my-story">
                     <h2>My story</h2>
