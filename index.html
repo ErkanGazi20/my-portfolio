@@ -5,92 +5,53 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>about Erkan Gazi</title>
 </head>
-<link href="https://fonts.googleapis.com/css?family=Lobster" rel="stylesheet" type="text/css">
-<style>
-    h1 {
-        font-family: Lobster;
-    }
-
-    .smaller-image {
-        width: 200px;
-    }
-
-    .thick-red-border {
-        border-color: red;
-        border-width:10px;
-        border-style: solid;
-        border-radius: 39.5%;
-    }
-
-    .thick-green-border {
-        border-color: greenyellow;
-        border-width:10px;
-        border-style: solid;
-        border-radius: 39.5%;
-    }
-
-    .black-background {
-        background-color: black;
-    }
-
-    .nav-links {
-        display: flex;
-        justify-content: space-evenly;
-    }
-
-    .social-media {
-        display: flex;
-        flex-direction: row-reverse;
-        justify-content: space-evenly;
-    }
-
-    
-</style>
+<link rel="stylesheet" type="text/css" href="style.css">
 <body>
-    <nav class="black-background">
+    <nav class="black-background link-hover">
         <div class="inside">
             <ul>
                 <div class="nav-links">
-                <li>
-                    <a href="#">About</a>
+                <li class="text-hover">
+                    <a href="#" class="current-page">About</a>
                 </li>
-                <li>
+                <li class="text-hover">
                     <a href="#">Portfolio</a>
                 </li>
-                <li>
+                <li class="text-hover">
                     <a href="#">Contact</a>
                 </li>
                 </div>
                 <div class="social-media">
-                <li>
+                <li class="text-hover">
                     <a href="https://github.com/ErkanGazi20" target="_blank">Github</a>
                 </li>
-                <li>
+                <li class="text-hover">
                     <a href="https://www.facebook.com/erkan.gazi.71/" target="_blank">Facebook</a>
                 </li>
-                <li>
+                <li class="text-hover">
                     <a href="https://www.instagram.com/erkang20/" target="_blank">Instagram</a>
                 </li>
-                <li>
+                <li class="text-hover">
                     <a href="https://www.linkedin.com/in/erkangazi20" target="_blank">LinkedIn</a>
                 </li>
-                <li>
+                <li class="text-hover">
                     <a href="https://twitter.com/Enkazlar" target="_blank">Twitter</a>
                 </li>
-            </div>
+                </div>
             </ul>
+        </div><!-- end inside -->
     </nav>
+    <section class="about">
     <h1>about.</h1>
             <img class="smaller-image thick-red-border" src="ErkanGazi1_Cropped.jpeg" alt="picture of me">
-        </div><!-- end inside -->
         <div id="page-wrap">
             <div class="inside">
-                <section class="about">
-                    <h3>I'm a IT Service Manager based in sunny Sheffiled, England.</h3>
+                    <h3 class="grey-text">I'm a IT Service Manager based in sunny Sheffiled, England.</h3>
                     <p>
                         Since 2021, I've enjoyed working in the tech industry soaking in valuable information from a wide spectrum of languages ranging from Python to SQL. When I'm not managing sevices, you'll find me cooking, boxing or working out.
                     </p>
                 </section><!-- end of about -->
+                <hr>
                 <section class="skillset">
                     <h2>Experience with</h2>
                     <ul>
@@ -107,10 +68,12 @@
                             ITIL (Information Technology Infrastructure Library)
                         </li>
                         <li>
-                            Learing HTML, CSS and JavaScript
+                            <strong>Learing HTML, CSS and JavaScript</strong>
+                            <!--The strong tag is used to make text bold!-->
                         </li>
                     </ul>
                 </section><!-- end of skillset -->
+                <hr>
                 <section class="personal-indulgences">
                     <h2>Personal Indulgences</h2>
                         <ul>
@@ -135,6 +98,7 @@
                         </ul>
                         <img class="smaller-image thick-green-border" src="picture_of_Rick_Sanchez.jpg" alt="picture of my mentor Rick Sanchez">
                 </section><!-- end of personal-indulgences-->
+                <hr>
                 <section class="my-story">
                     <h2>My story</h2>
                     <P>
@@ -145,7 +109,7 @@
                     </P>
                 </section><!-- end of my story-->
                 <footer>
-                    <a href="#"><button  alt="button that takes you back to the top">Back to the top</button></a>
+                    <a href="#"><button class="button-hover" alt="button that takes you back to the top">Back to the top</button></a>
                 </footer>
             </div><!-- end of inside  -->
         </div><!-- end of page wrap -->        
