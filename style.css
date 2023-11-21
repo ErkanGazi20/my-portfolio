@@ -1,20 +1,44 @@
+body {
+    margin: 0;
+  }
+
 h1 {
     font-family: Lobster;
     font-size: 3.6rem;
     margin: 20px;
 }
 
+h2 {
+    margin: 8px;
+}
+
+h3 {
+    margin: 8px;
+}
+
+nav {
+    list-style: none;
+    font-weight: bold;
+    width: 100%;
+    text-align: center;
+    justify-content: space-between;
+  }
+
+
 p{
     line-height: 25px;
+    margin-left: 8px;
 }
 
 li{
     line-height: 25px;
+    margin-left: 8px;
 }
 
 .smaller-image {
     width: 200px;
     transform: scale(1.05);
+    margin-left: 8px;
 }
 
 .thick-red-border {
@@ -22,6 +46,7 @@ li{
     border-width:10px;
     border-style: solid;
     border-radius: 39.5%;
+    margin-left: 8px;
 }
 
 .thick-green-border {
@@ -29,29 +54,26 @@ li{
     border-width:10px;
     border-style: solid;
     border-radius: 39.5%;
+    margin-left: 8px;
 }
 
 
 .black-background {
     background-color: black;
-    z-index: 1030;
-    width: 100%;
-    height: 50%;
     animation-name: appear;
     animation-duration: 1s;
     animation-timing-function: ease;
-    animation-fill-mode: upwards;
     transform: translate(0, -20px);
 }
 
 @keyframes appear{
     0%{
         transform: translate(0, -60px);
-        opacity:0.3
+        opacity:0.7
     }
     50%{
         transform: translate(0, -40);
-        opacity: 0.65;
+        opacity: 0.85;
     }
     100%{
         transform: translate(0, -20px);
@@ -62,6 +84,7 @@ li{
 .nav-links {
     display: flex;
     justify-content: space-around;
+
 }
 
 a {
@@ -91,6 +114,7 @@ a:hover{
 button {
     background-color: black;
     color: white;
+    margin-left: 8px;
 }
 
 .grey-text{
