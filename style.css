@@ -19,12 +19,19 @@ h3 {
 nav {
     list-style: none;
     font-weight: bold;
+    text-transform: lowercase;
     width: 100%;
     text-align: center;
     justify-content: space-between;
+    font-family: Arial (sans-serif);
   }
+
 .icon {
     width: 20px;
+}
+
+.facebook-icon {
+    width: 14px;
 }
 
 p{
