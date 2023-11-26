@@ -35,13 +35,11 @@ nav {
     padding-top: 20px;
   }
 
-  button {
-    background-color: black;
-    color: white;
-    margin-left: 8px;
-}
   .nav-links {
     display: flex;
+    flex-wrap: wrap;
+    flex-shrink: 1;
+    flex-grow: 1;
     gap: 4rem;
     flex-shrink: 1;
     margin-right: 40px;
@@ -51,6 +49,7 @@ nav {
 
 .social-media {
     display: flex;
+    flex-shrink: 1;
     gap: 2rem;
     flex-direction: row-reverse;
     flex-shrink: 1;
@@ -132,6 +131,9 @@ a {
 
 .black-background {
     background-color: black;
+    display: flex;
+    flex-wrap: wrap;
+    flex-shrink: 1;
     animation-name: slide-down;
     animation-duration: 1s;
     animation-timing-function: ease;
@@ -161,7 +163,8 @@ a {
 .bottom-link{
     color:#4B4D52;
     font-size: small;
-    margin: 8px;
+    margin: 8px;7
+    display: flex: ;;
 }
 
 a:hover{
