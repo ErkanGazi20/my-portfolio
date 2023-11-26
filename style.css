@@ -154,9 +154,15 @@ a {
 }
 
 .button-hover:hover{
-    color: darkgrey;
     transform: scale(1.1);
+    opacity: 0.7;
 }    
+
+.bottom-link{
+    color:#4B4D52;
+    font-size: small;
+    margin: 8px;
+}
 
 a:hover{
     opacity: 0.7;
