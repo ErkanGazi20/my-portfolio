@@ -161,10 +161,23 @@ a {
 }    
 
 .bottom-link{
-    color:#4B4D52;
+    color:black;
     font-size: small;
-    margin: 8px;7
-    display: flex: ;;
+    margin: 8px;
+    padding-left: 150px;
+}
+
+.footer-nav-links {
+    color: black;
+    display: flex;
+    flex-direction: row-reverse;
+}
+
+.grey-background {
+    background-color: #F2ECFF;
+    display:flex;
+    justify-content: center;
+    flex-direction: row-reverse;
 }
 
 a:hover{
