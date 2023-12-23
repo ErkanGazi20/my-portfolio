@@ -43,6 +43,7 @@ nav {
     gap: 3rem;
     flex-shrink: 1;
     margin-right: 40px;
+    margin-bottom: 10px;
     padding: 0;
     list-style: none;
 }
@@ -173,12 +174,10 @@ a {
     justify-content: space-between;
     flex-shrink: 1;
     flex-grow: 1;
-    /* gap: 2rem; */
     flex-shrink: 1;
     font-size: 10px;
     margin-right: 20px;
     margin-left: 20px;
-    /* margin-bottom: 20px; */
     padding: 0;
     list-style: none;
 }
@@ -195,9 +194,7 @@ a {
     background-color: #F2ECFF;
     display:flex;
     flex-shrink: 1;
-    /* justify-content: center; */
     flex-direction: row-reverse;
-    margin-bottom: 10px;
 }
 
 a:hover{
