@@ -18,3 +18,16 @@ function clearForm() {
     const form = document.getElementById('my-form');
     form.reset();
 }
+
+document.addEventListener("DOMContentLoaded", function () {
+    var footerNav = document.querySelector(".grey-background");
+    
+    window.addEventListener("scroll", function () {
+        // Check if the user has scrolled to the end of the page
+        if (window.innerHeight + window.scrollY >= document.body.offsetHeight) {
+            footerNav.classList.add("show-footer");
+        } else {
+            footerNav.classList.remove("show-footer");
+        }
+    });
+});
