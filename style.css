@@ -47,9 +47,6 @@ nav {
     text-transform: lowercase;
     width: 100%;
     text-align: center;
-    justify-content: space-between;
-    font-family: Arial (sans-serif);
-    display: flex;
     flex-wrap: wrap;
     flex-basis: 0;
     flex-direction: row-reverse;
