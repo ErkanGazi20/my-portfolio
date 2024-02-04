@@ -91,6 +91,7 @@ nav li {
 }
 
 .home-icon {
+    display: block;
     float: left;
     width: 40px;
 }
